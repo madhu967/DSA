@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(); 
         int m = sc.nextInt(); 
-        int[][] adj = new int[n + 1][n + 1]; 
+        int[][] adj = new int[n + 1][n + 1];  // if 0 indexed
 
         for (int i = 0; i < m; i++) {
             int u = sc.nextInt();
